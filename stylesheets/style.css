@@ -1,0 +1,98 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('/images/wood2.jpg');
+    background-size: cover;
+}
+/* .container {
+    border: 2px solid black;
+    width: 1000px;
+    height: 700px;
+} */
+/* .contNote {
+    display: inline-block;
+    width: 50px;
+    border: 3px solid black;
+}
+.contNote img {
+    width: 300px;
+    border: 3px solid black;
+} */
+
+.contButt {
+    display: flex;    
+    justify-content: space-around;
+    width: 450px;
+    margin: 50px auto 10px auto;
+    /* border: 3px solid black; */
+}
+
+.contButt button {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: cornsilk;
+    /* border: 3px solid black; */
+
+}
+.contGame {
+    width: 450px;
+    height: 450px;
+    margin: 20px auto 20px auto;
+    background-color: #481A0A;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* border:2px solid black; */
+    border-radius: 8px;
+}
+
+.contGame div {
+    background-color: #935830;
+    width: 125px;
+    height: 125px;
+    padding: 10px;
+    border: 1px solid rgb(156, 140, 68);
+    border-radius: 5px;
+    margin: 8px;
+    font-size: 85px;
+    text-align: center;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    color: rgb(243, 239, 24);
+    
+}
+p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    color: rgb(243, 239, 24);
+}
+
+.contRest {
+    width: 450;
+    display: flex;
+    justify-content: center;
+    margin: 0px 500px 500px 500px;
+    /* border: 3px solid black; */
+
+}
+.contRest button {
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: cornsilk;
+    /* border: 3px solid black; */
+
+}
