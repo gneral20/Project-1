@@ -96,3 +96,15 @@ p {
     /* border: 3px solid black; */
 
 }
+.contPng {
+    width: 400px;
+    height: 400px;
+    padding: 30px 50px;
+    position: absolute;
+    top: 26px;
+    left: 50px;
+}
+.contPng img {
+    width: 250px;
+    height: 300px;
+}
