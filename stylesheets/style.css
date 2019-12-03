@@ -12,15 +12,49 @@ body {
     width: 1000px;
     height: 700px;
 } */
-/* .contNote {
-    display: inline-block;
-    width: 50px;
-    border: 3px solid black;
+.contNote {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 55px;
+    right: 50px;
+    background-image: url('../images/stcNot.png');
+    background-size: 100%;
+}
+.contNote p {
+    color: black;
+    margin: 50px 10px 10px 10px;
+    position: relative;
+    top: 50px;
+    right: 4px;
+}
+.res{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    right: 128px;
+    padding: 5px;
+}
+.res p{
+    color: rgb(202, 11, 11);
+    margin: 54px;
+}
+.divbut1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: #481A0A;
+    padding: 5px;
 }
 .contNote img {
     width: 300px;
     border: 3px solid black;
-} */
+}
 
 .contButt {
     display: flex;    
@@ -31,16 +65,24 @@ body {
 }
 
 .contButt button {
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 30px;
     margin: 10px;
     border-radius: 8px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     background-color: cornsilk;
     /* border: 3px solid black; */
 
 }
+
+.span {
+    color: rgb(202, 11, 11);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 5px 0px 0px;
+}
+
 .contGame {
     width: 450px;
     height: 450px;
@@ -93,6 +135,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     background-color: cornsilk;
+    color: rgb(202, 11, 11);
     /* border: 3px solid black; */
 
 }
