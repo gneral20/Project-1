@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('/images/wood2.jpg');
+    background-image: url('../images/wood2.jpg');
     background-size: cover;
 }
 

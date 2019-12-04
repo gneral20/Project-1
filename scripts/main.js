@@ -7,10 +7,10 @@ let arr = ['', '', '',
     '', '', ''
 ]
 
-const audioX = new Audio('../audio/click.mp3');
-const audioY = new Audio('../audio/click.mp3');
+const audioX = new Audio('audio/click.mp3');
+const audioY = new Audio('audio/click.mp3');
 
-const audioW = new Audio('../audio/Audi_App1.mp3');
+const audioW = new Audio('audio/taDa.mp3');
 
 function resetGame () {
     arr = ['', '', '',
@@ -66,7 +66,7 @@ function chickarr () {
                    player1 = player1 + 1;
                    console.log(player1);
                    $('div.res > p:nth-child(1)').text(player1)
-                   Swal.fire($("#but1").text()+ " " + arr[0] + " " +"is the Winner")
+                   Swal.fire($("#but1").text() + " " +"is the Winner")
                    .then(function(result) {
                     resetGame()
                   })
@@ -75,7 +75,7 @@ function chickarr () {
                     player2 = player2 + 1;
                     console.log(player2);
                     $('div.res > p:nth-child(2)').text(player2)
-                    Swal.fire($("#but2").text()+ " " + arr[0] + " " +"is the Winner")
+                    Swal.fire($("#but2").text() + " " +"is the Winner")
                     .then(function(result) {
                      resetGame()
                    })
@@ -93,7 +93,7 @@ function chickarr () {
                    player1 = player1 + 1;
                    console.log(player1);
                    $('div.res > p:nth-child(1)').text(player1)
-                   Swal.fire($("#but1").text()+ " " + arr[0] + " " +"is the Winner")
+                   Swal.fire($("#but1").text() + " " +"is the Winner")
                    .then(function(result) {
                     resetGame()
                   })
@@ -101,7 +101,7 @@ function chickarr () {
                     player2 = player2 + 1;
                     console.log(player2);
                     $('div.res > p:nth-child(2)').text(player2)
-                    Swal.fire($("#but2").text()+ " " + arr[0] + " " +"is the Winner")
+                    Swal.fire($("#but2").text() + " " +"is the Winner")
                     .then(function(result) {
                      resetGame()
                    })
@@ -118,7 +118,7 @@ function chickarr () {
                    player1 = player1 + 1;
                    console.log(player1);
                    $('div.res > p:nth-child(1)').text(player1)
-                   Swal.fire($("#but1").text()+ " " + arr[0] + " " +"is the Winner")
+                   Swal.fire($("#but1").text() + " " +"is the Winner")
                    .then(function(result) {
                     resetGame()
                   })
@@ -126,7 +126,7 @@ function chickarr () {
                     player2 = player2 + 1;
                     console.log(player2);
                     $('div.res > p:nth-child(2)').text(player2)
-                    Swal.fire($("#but2").text()+ " " + arr[0] + " " +"is the Winner")
+                    Swal.fire($("#but2").text() + " " +"is the Winner")
                     .then(function(result) {
                      resetGame()
                    })
@@ -144,7 +144,7 @@ function chickarr () {
                    player1 = player1 + 1;
                    console.log(player1);
                    $('div.res > p:nth-child(1)').text(player1)
-                   Swal.fire($("#but1").text()+ " " + arr[1] + " " +"is the Winner")
+                   Swal.fire($("#but1").text() + " " +"is the Winner")
                    .then(function(result) {
                     resetGame()
                   });
@@ -152,7 +152,7 @@ function chickarr () {
                     player2 = player2 + 1;
                     console.log(player2);
                     $('div.res > p:nth-child(2)').text(player2)
-                    Swal.fire($("#but2").text()+ " " + arr[1] + " " +"is the Winner")
+                    Swal.fire($("#but2").text() + " " +"is the Winner")
                     .then(function(result) {
                      resetGame()
                    });
@@ -170,7 +170,7 @@ function chickarr () {
                    player1 = player1 + 1;
                    console.log(player1);
                    $('div.res > p:nth-child(1)').text(player1)
-                   Swal.fire($("#but1").text()+ " " + arr[2] + " " +"is the Winner")
+                   Swal.fire($("#but1").text() + " " +"is the Winner")
                    .then(function(result) {
                     resetGame()
                   });
@@ -178,7 +178,7 @@ function chickarr () {
                     player2 = player2 + 1;
                     console.log(player2);
                     $('div.res > p:nth-child(2)').text(player2)
-                    Swal.fire($("#but2").text()+ " " + arr[2] + " " +"is the Winner")
+                    Swal.fire($("#but2").text() + " " +"is the Winner")
                     .then(function(result) {
                      resetGame()
                    });
@@ -196,7 +196,7 @@ function chickarr () {
                    player1 = player1 + 1;
                    console.log(player1);
                    $('div.res > p:nth-child(1)').text(player1)
-                   Swal.fire($("#but1").text()+ " " + arr[2] + " " +"is the Winner")
+                   Swal.fire($("#but1").text() + " " +"is the Winner")
                    .then(function(result) {
                     resetGame()
                   });
@@ -204,7 +204,7 @@ function chickarr () {
                     player2 = player2 + 1;
                     console.log(player2);
                     $('div.res > p:nth-child(2)').text(player2)
-                    Swal.fire($("#but2").text()+ " " + arr[2] + " " +"is the Winner")
+                    Swal.fire($("#but2").text() + " " +"is the Winner")
                     .then(function(result) {
                      resetGame()
                    });
@@ -222,7 +222,7 @@ function chickarr () {
                    player1 = player1 + 1;
                    console.log(player1);
                    $('div.res > p:nth-child(1)').text(player1)
-                   Swal.fire($("#but1").text()+ " " + arr[3] + " " +"is the Winner")
+                   Swal.fire($("#but1").text() + " " +"is the Winner")
                    .then(function(result) {
                     resetGame()
                   });
@@ -230,7 +230,7 @@ function chickarr () {
                     player2 = player2 + 1;
                     console.log(player2);
                     $('div.res > p:nth-child(2)').text(player2)
-                    Swal.fire($("#but2").text()+ " " + arr[3] + " " +"is the Winner")
+                    Swal.fire($("#but2").text() + " " +"is the Winner")
                     .then(function(result) {
                      resetGame()
                    });
@@ -248,7 +248,7 @@ function chickarr () {
                    player1 = player1 + 1;
                    console.log(player1);
                    $('div.res > p:nth-child(1)').text(player1)
-                   Swal.fire($("#but1").text()+ " " + arr[6] + " " +"is the Winner")
+                   Swal.fire($("#but1").text() + " " +"is the Winner")
                    .then(function(result) {
                     resetGame()
                   });
@@ -256,7 +256,7 @@ function chickarr () {
                     player2 = player2 + 1;
                     console.log(player2);
                     $('div.res > p:nth-child(2)').text(player2)
-                    Swal.fire($("#but2").text()+ " " + arr[6] + " " +"is the Winner")
+                    Swal.fire($("#but2").text() + " " +"is the Winner")
                     .then(function(result) {
                      resetGame()
                    });
