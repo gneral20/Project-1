@@ -7,11 +7,7 @@ body {
     background-image: url('/images/wood2.jpg');
     background-size: cover;
 }
-/* .container {
-    border: 2px solid black;
-    width: 1000px;
-    height: 700px;
-} */
+
 .contNote {
     display: flex;
     justify-content: center;
@@ -22,6 +18,7 @@ body {
     right: 50px;
     background-image: url('../images/stcNot.png');
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 .contNote p {
     color: black;
@@ -150,4 +147,42 @@ p {
 .contPng img {
     width: 250px;
     height: 300px;
+}
+
+@media (max-width: 576px){
+  
+.contNote{
+    position: absolute;
+    top: 628px;
+    right: 100%;
+}
+.res {
+    display: none;
+}
+.contPng{
+    display: none;
+}
+.contGame{
+    width: 100%;
+    justify-content: space-around;
+}
+.contButt{
+    margin:0px;
+    width: 100%;
+}
+.contButt button{
+    width: 70%;
+}
+.contGame div{
+    width: 30%;
+    height: 30%;
+    margin: 0px;
+}
+.contRest{
+    margin:0px;
+}
+.container {
+   margin: 0px;
+}
+
 }

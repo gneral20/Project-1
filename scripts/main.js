@@ -273,10 +273,10 @@ const startGame = function (event) {
         $(event.target).text('X');
         arr[$(event.target).attr('id')] = "X";
         console.log(arr);
-        // $(event.target).css({
-        //     color:"#935830",
-        //     backgroundColor:'yellow',
-        // });
+        $(event.target).css({
+            color:"yellow",
+            backgroundColor:'#935830',
+        });
         $(event.target).off('');
 
 
